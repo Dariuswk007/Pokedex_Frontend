@@ -1,5 +1,5 @@
 import React, {useState, useEffect } from 'react';
-import Navbar from './Navbar';
+import Pokemon from './Pokemon';
 
 export default function app() {
 
@@ -18,7 +18,7 @@ export default function app() {
     return allPokemon.map((pokemon) => {
       return ( 
       <div>
-        <Navbar pokemon ={pokemon} />;
+        <Pokemon pokemon ={pokemon} />;
       </div>)  
     });
   };

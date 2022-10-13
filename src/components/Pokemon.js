@@ -1,9 +1,11 @@
 import React from 'react';
 
-const Navbar = (props) => {
+const Pokemon = (props) => {
     return (
-        <div>
+        <div className="mon-container">
+            <div className= "mon-name">
             {props.pokemon.name}
+            </div>
             {props.pokemon.dex_entry}
             {props.pokemon.height}
             {props.pokemon.weight}
@@ -11,4 +13,4 @@ const Navbar = (props) => {
     )
 }
 
-export default Navbar;
+export default Pokemon;
