@@ -4,11 +4,20 @@ const Pokemon = (props) => {
     return (
         <div className="mon-container">
             <div className= "mon-name">
-            {props.pokemon.name}
+                {props.pokemon.name}
             </div>
-            {props.pokemon.dex_entry}
-            {props.pokemon.height}
-            {props.pokemon.weight}
+
+            <div className= "mon-name-two">
+                {props.pokemon.dex_entry}
+            </div>
+
+            <div className= "mon-name-three">
+                {props.pokemon.height}
+            </div>
+
+            <div className= "mon-name-four">
+                {props.pokemon.weight}
+            </div>
         </div>
     )
 }
