@@ -1,6 +1,9 @@
 html, body {
 margin: 0px;
 padding: 0px;
+background-color: black;
 }
 
-@import "./dex-entry.scss"
+@import "./dex-entry.scss";
+@import "./title.scss";
+@import "./pokemon-img.scss"
